@@ -1,0 +1,110 @@
+:root {
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+  background-color: var(--Pale-blue);
+  background-repeat: no-repeat;
+  background-image: url(file:///C:/Users/Aziz%20CH/Desktop/Web%20Development%20and%20design/order-summary-component-main/images/pattern-background-desktop.svg);
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  text-align: center;
+  margin: 3% 7% 3%;
+}
+
+.card-container {
+  margin-left: 35%;
+  width: 24em;
+  background-color: #fff;
+  border-radius: 2em;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-content {
+  padding: 1em 1em;
+  margin: 1em;
+}
+
+h1 {
+  color: var(--Dark-blue);
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+p {
+  text-align: center;
+  color: var(--Desaturated-blue);
+}
+
+.card-plan {
+  background-color: var(--Very-pale-blue);
+  padding: 1rem 2rem;
+  margin: 0.8rem;
+  padding: 0.8rem;
+  border-radius: 15%;
+}
+
+.plan-icon {
+  padding-left: 0.5rem;
+}
+
+h3 {
+  font-size: 1em;
+  color: var(--Desaturated-blue);
+  padding-left: 0.9rem;
+}
+
+.plan-desc {
+  padding-left: 0.9rem;
+}
+
+h2 {
+  font-size: 1em;
+  color: var(--Bright-blue);
+  text-decoration: underline;
+  margin-left: 2rem;
+  padding-left: 1rem;
+  padding-top: 0.8rem;
+}
+
+h2:hover {
+  color: rgba(56, 4, 179, 0.856);
+}
+
+.btn {
+  width: 90%;
+}
+
+.proceed-btn {
+  background-color: var(--Bright-blue);
+  color: #fff;
+  margin-bottom: 0.8rem;
+}
+
+.proceed-btn:hover {
+  background-color: var(--Dark-blue);
+}
+
+.cancel-btn {
+  background-color: #fff;
+  color: black;
+}
+
+.attribution {
+  font-size: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+.att-link {
+  color: var(--Desaturated-blue);
+}
